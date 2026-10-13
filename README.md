@@ -2,7 +2,7 @@
 
 **Turn healthcare provider and claims pain points into scored, responsible AI use cases — in minutes, not weeks.**
 
-[![CI](https://github.com/<your-username>/ai-opportunity-intake-assistant/actions/workflows/ci.yml/badge.svg)](../../actions)
+[![CI](https://github.com/<prerana-dalvi>/ai-opportunity-intake-assistant/actions/workflows/ci.yml/badge.svg)](../../actions)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
@@ -48,7 +48,7 @@ After 15+ years in quality engineering on Medicaid MMIS, provider management and
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/ai-opportunity-intake-assistant.git
+git clone https://github.com/<prerana-dalvi>/ai-opportunity-intake-assistant.git
 cd ai-opportunity-intake-assistant
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
