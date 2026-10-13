@@ -1,0 +1,8 @@
+# Core package has no required dependencies (pure Python 3.10+).
+# UI
+streamlit>=1.38
+pandas>=2.0
+# Optional generative layer (set ANTHROPIC_API_KEY to enable)
+anthropic>=0.40
+# Dev
+pytest>=8.0

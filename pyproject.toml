@@ -1,0 +1,20 @@
+[project]
+name = "ai-opportunity-intake-assistant"
+version = "0.1.0"
+description = "Turn healthcare provider & claims pain points into scored, responsible AI use cases."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Prerana Dalvi" }]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.38", "pandas>=2.0"]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+intake-assistant = "intake_assistant.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,16 @@
+[
+  {"question": "Can the AI automatically deny a claim without a person?", "expected_heading": "Human oversight"},
+  {"question": "Which AI vendors are allowed to process PHI?", "expected_heading": "Protected Health Information (PHI)"},
+  {"question": "When should I escalate a use case to governance?", "expected_heading": "Escalation criteria"},
+  {"question": "What should the assistant do if it is not confident?", "expected_heading": "Accuracy and hallucination controls"},
+  {"question": "How do we check prioritization models for bias across regions?", "expected_heading": "Bias and fairness monitoring"},
+  {"question": "What needs to be logged for each AI assisted decision?", "expected_heading": "Audit logging"},
+  {"question": "When can a pilot move to scale?", "expected_heading": "Pilot and scale gates"},
+  {"question": "What is timely filing?", "expected_heading": "Timely filing"},
+  {"question": "Why does a claim end up in the pend queue?", "expected_heading": "Pended claim"},
+  {"question": "How often do Medicaid providers revalidate enrollment?", "expected_heading": "Provider enrollment and revalidation"},
+  {"question": "How many digits is an NPI?", "expected_heading": "NPI"},
+  {"question": "What does a nurse check for prior authorization medical necessity?", "expected_heading": "Prior authorization"},
+  {"question": "What is the 835 remittance transaction?", "expected_heading": "Remittance advice (835)"},
+  {"question": "What is the best pizza in Austin?", "expected_heading": null}
+]

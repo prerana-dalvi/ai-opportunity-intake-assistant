@@ -1,0 +1,22 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install pytest
+      - name: Unit tests (scoring, PHI guardrail, retrieval)
+        run: pytest -q
+      - name: AI quality gate (retrieval eval vs golden set)
+        run: python evals/run_retrieval_eval.py
+      - name: Smoke test CLI
+        run: python -m intake_assistant portfolio data/sample_use_cases.json --no-llm --out reports
