@@ -4,7 +4,6 @@
 
 [![CI](https://github.com/<prerana-dalvi>/ai-opportunity-intake-assistant/actions/workflows/ci.yml/badge.svg)](../../actions)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 An AI Center of Excellence receives a steady stream of "can AI help with this?" requests from claims, provider enrollment, utilization management and contact-center teams. This tool supports the **AI Business Partner** workflow end to end:
 
@@ -140,4 +139,4 @@ tests/            # unit tests (pytest)
 **Prerana Dalvi** — Quality engineering leader in Medicaid / federal healthcare IT, upskilling in applied AI, RAG and AI quality evaluation.
 [LinkedIn](https://www.linkedin.com/in/prerana-dalvi)
 
-MIT licensed.
+
